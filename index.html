@@ -14,6 +14,10 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
     <!--Font Awesome-->
     <script
       src="https://kit.fontawesome.com/5cc6fb9f6b.js"
@@ -23,10 +27,199 @@
 
   <body>
     <!--Header-->
-    <header></header>
+    <header>
+      <div class="container-header flex justify-between align-center">
+        <a href="about.html" class="brand">
+          Food
+          <span>Galore</span></a
+        >
+        <nav>
+          <ul class="flex justify-between align-center">
+            <li>
+              <a href="#" class="active">HOME</a>
+            </li>
+            <li>
+              <a href="about.html">ABOUT</a>
+            </li>
+            <li>
+              <a href="menu.html">MENU</a>
+            </li>
+            <li>
+              <a href="reservation.html">MAKE A RESERVATION</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
     <!--Main-->
-    <main></main>
+    <main class="home-page">
+      <div class="background"></div>
+
+      <section class="hero">
+        <div class="container">
+          <h1>
+            Skinny people are<br />
+            easier to kidnap. <br />
+            Eat Healthy. <br />Stay safe.
+          </h1>
+          <p>
+            It's easier to be faithful to a restaurant than it is to a woman.
+          </p>
+          <a href="about.html" class="btn btn-primary"> WHO WE ARE </a>
+          <a href="reservation.html" class="btn btn-secondary">
+            MAKE A RESERVATION
+          </a>
+        </div>
+      </section>
+
+      <section class="todays">
+        <div class="container">
+          <div
+            class="recp flex justify-between align-center flex-wrap"
+            style="font-size: 0"
+          >
+            <div class="flex-50">
+              <img
+                src="./assets/media/dal.webp"
+                alt="Image Here"
+                class="full-width"
+              />
+            </div>
+            <div class="flex-50" style="padding: 1rem 2rem">
+              <h5>Today's Special</h5>
+              <p>
+                " Vegan Madras Curry Vegetable Soup" Madras curry vegetable soup
+                has an intensely flavorful, spicy profile that tastes distinctly
+                different from other curries you may have tried. Adding
+                vegetables and coconut milk to this simple soup gives it a silky
+                texture and lots of nutrition.
+              </p>
+              <a href="#" class="btn btn-primary">View More</a>
+            </div>
+            <div class="flex-50" style="padding: 1rem 2rem">
+              <h5>Most Demanded</h5>
+              <p>
+                "Baked Vegetarian Samosas With Phyllo Pastry" Traditionally,
+                crispy samosas are made with a flour-based dough seasoned with
+                caraway seeds and then deep-fried in ghee or oil. This recipe
+                bakes them, using phyllo pastry for an extra fast prep. The
+                result is quite different from what you would expect from
+                samosas, but you may enjoy the this variation.
+              </p>
+              <a href="#" class="btn btn-primary">View More</a>
+            </div>
+            <div class="flex-50">
+              <img
+                src="./assets/media/indian.jpg"
+                alt="Image Here"
+                class="full-width"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="speciality padding">
+        <h3>Our Specialtities</h3>
+        <p>Check out our specialities menu here.</p>
+
+        <div class="container flex justify-between align-start">
+          <div class="special-dish">
+            <img
+              src="./assets/media/breakfast.jpg"
+              alt="Image here"
+              class="full-width"
+            />
+            <h5>The Best Breakfast</h5>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation.</p>
+            <a href="#">View More >></a>
+          </div>
+          <div class="special-dish">
+            <img
+              src="./assets/media/mains.jpg"
+              alt="Image here"
+              class="full-width"
+            />
+            <h5>Tasty-Healthy Dinners</h5>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation.</p>
+            <a href="#">View More >></a>
+          </div>
+          <div class="special-dish">
+            <img
+              src="./assets/media/gall3.jpg"
+              alt="Image here"
+              class="full-width"
+            />
+            <h5>Delicious Desserts</h5>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation.</p>
+            <a href="#">View More >></a>
+          </div>
+          <div class="special-dish">
+            <img
+              src="./assets/media/drinks.jpg"
+              alt="Image here"
+              class="full-width"
+            />
+            <h5>Fruit Juices &Wine</h5>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation.</p>
+            <a href="#">View More >></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="reserve padding">
+        <h3>Make a reservation</h3>
+        <a href="reservation.html" class="btn btn-primary"> Reservation</a>
+      </section>
+    </main>
     <!--Footer-->
-    <footer></footer>
+    <footer class="padding">
+      <div class="footer-main container flex justify-between align-center">
+        <div class="c-box flex-25">
+          <i class="fas fa-map-marker-alt"></i>
+          <h4>Reach Us:</h4>
+          <a href="https://g.page/AltCampus?share" target="_blank"
+            >#123, Dharamshala, HP, INDIA</a
+          >
+        </div>
+
+        <div class="c-box flex-25">
+          <i class="far fa-envelope"></i>
+          <h4>Email Us:</h4>
+          <a href="mailto:abhishek.990914@gmail.com"
+            >abhishek.990914 @gmail.com</a
+          >
+        </div>
+
+        <div class="c-box flex-25">
+          <i class="fas fa-phone"></i>
+          <h4>Call Us:</h4>
+          <a href="tel:+919389732668">+91-93897-32668</a>
+        </div>
+
+        <div class="c-box flex-25 follow">
+          <i class="fas fa-users"></i>
+          <h4>Follow Us:</h4>
+          <div class="flex justify-around align-center">
+            <a href="https://www.facebook.com" target="_blank"
+              ><i class="fab fa-facebook-square"></i
+            ></a>
+            <a href="https://www.instagram.com" target="_blank"
+              ><i class="fab fa-instagram-square"></i
+            ></a>
+            <a href="https://www.twitter.com" target="_blank"
+              ><i class="fab fa-twitter-square"></i
+            ></a>
+            <a href="https://www.google.com" target="_blank"
+              ><i class="fab fa-google-plus-square"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-copyright">
+        <small>All rights reserved | &copy; 2021 Food Galore</small>
+      </div>
+    </footer>
   </body>
 </html>
