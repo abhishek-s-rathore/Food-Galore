@@ -1,4 +1,4 @@
-header {
+.header {
   background-color: rgba(0, 0, 0, 1);
   padding: 1rem 0;
 
@@ -17,7 +17,7 @@ header {
     display: none;
   }
 
-  nav {
+  .header-nav {
     a {
       margin-left: 2rem;
       color: #ffffff;
@@ -25,46 +25,44 @@ header {
         color: rgb(244, 140, 52);
       }
     }
+
+    .active {
+      border-bottom: 4px solid rgb(244, 140, 52);
+    }
   }
 
-  .active {
-    border-bottom: 4px solid rgb(244, 140, 52);
+  .back-adjust {
+    height: 2.8rem;
+    display: none;
   }
-
 }
-
-.back-adjust{
-  height:2.8rem;
-  display: none;
-}
-
 
 @media all and (max-width: 768px) {
-  nav{
+  .header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 2.8rem;
+    z-index: 99;
+  }
+
+  .header-nav {
     display: none;
   }
 
-.header{
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  padding:2.8rem;
-  z-index: 99;
-}
+  .back-adjust {
+    display: block;
+  }
 
-.back-adjust{
-  display:block;
-}
-
-  .brand{
+  .brand {
     position: fixed;
     top: 1rem;
     left: 2rem;
     z-index: 99;
   }
 
-  #bars{
+  #bars {
     position: fixed;
     top: 1rem;
     right: 2rem;
@@ -89,7 +87,7 @@ header {
     right: 2rem;
   }
 
-  input:checked ~ nav {
+  input:checked ~ .header-nav {
     display: inline-block;
     position: fixed;
     top: 0;
@@ -98,7 +96,7 @@ header {
     left: 0;
     background: rgba(0, 0, 0, 1);
     z-index: 97;
-    ul{
+    ul {
       height: 100vh;
       display: flex;
       justify-content: center;
@@ -106,15 +104,8 @@ header {
       flex-direction: column;
       margin-left: -1rem;
     }
-
-    ul li{
+    ul li {
       margin: 2rem auto;
     }
   }
-
-
-  
-
-
 }
-

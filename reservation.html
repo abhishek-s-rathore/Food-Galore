@@ -37,7 +37,7 @@
         <input type="checkbox" name="toggle" id="toggle" />
         <label for="toggle" id="bars"><i class="fas fa-bars"></i></label>
         <label for="toggle" id="cross"><i class="fas fa-times"></i></label>
-        <nav>
+        <nav class="header-nav">
           <ul class="flex justify-between align-center">
             <li>
               <a href="index.html">HOME</a>
@@ -80,51 +80,45 @@
       <section class="get-in-touch padding">
         <h5>Get In Touch</h5>
         <div class="container flex justify-between align-center wrap">
-          <div class="column flex-50">
-            <div class="content">
-              <div class="map-box">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3375.9195155713755!2d76.35140991557358!3d32.20639932016648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391b530e24726e0d%3A0x71ff0cae0784712d!2sAltCampus%20Services%20Pvt.%20Ltd!5e0!3m2!1sen!2sin!4v1622965453590!5m2!1sen!2sin"
-                  width="100%"
-                  height="250"
-                  style="border: 0"
-                  allowfullscreen=""
-                  loading="lazy"
-                ></iframe>
-              </div>
+          <div class="flex-50">
+            <div class="map-box">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3375.9195155713755!2d76.35140991557358!3d32.20639932016648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391b530e24726e0d%3A0x71ff0cae0784712d!2sAltCampus%20Services%20Pvt.%20Ltd!5e0!3m2!1sen!2sin!4v1622965453590!5m2!1sen!2sin"
+                width="100%"
+                height="250"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
             </div>
           </div>
-          <div class="column flex-50">
-            <div class="content">
-              <nav>
-                <ul class="flex flex-column align-start justify-evenly">
-                  <li>
-                    <span>Address:</span>
-                    <a href="https://g.page/AltCampus?share" target="_blank"
-                      >#123, Dharamshala, HP, INDIA</a
-                    >
-                  </li>
-                  <li>
-                    <span>Email:</span>
-                    <a href="mailto:abhishek.990914@gmail.com"
-                      >abhishek.990914@gmail.com</a
-                    >
-                  </li>
-                  <li>
-                    <span>Phone:</span>
-                    <a href="tel:+919389732668">+91-93897-32668</a>
-                  </li>
-                  <li>
-                    <span>Whatsapp:</span>
-                    <a
-                      href="https://wa.me/message/CFMFR4SDSF4XN1"
-                      target="_blank"
-                      >+91-93897-32668</a
-                    >
-                  </li>
-                </ul>
-              </nav>
-            </div>
+          <div class="flex-50">
+            <nav class="links">
+              <ul class="flex flex-column align-start justify-evenly">
+                <li>
+                  <span>Address:</span>
+                  <a href="https://g.page/AltCampus?share" target="_blank"
+                    >#123, Dharamshala, HP, INDIA</a
+                  >
+                </li>
+                <li>
+                  <span>Email:</span>
+                  <a href="mailto:abhishek.990914@gmail.com"
+                    >abhishek.990914@gmail.com</a
+                  >
+                </li>
+                <li>
+                  <span>Phone:</span>
+                  <a href="tel:+919389732668">+91-93897-32668</a>
+                </li>
+                <li>
+                  <span>Whatsapp:</span>
+                  <a href="https://wa.me/message/CFMFR4SDSF4XN1" target="_blank"
+                    >+91-93897-32668</a
+                  >
+                </li>
+              </ul>
+            </nav>
           </div>
         </div>
       </section>
@@ -223,7 +217,7 @@ Your Message
         <div class="c-box flex-25 follow">
           <i class="fas fa-users"></i>
           <h4>Follow Us:</h4>
-          <nav>
+          <div>
             <ul class="flex justify-around align-center">
               <li>
                 <a href="https://www.facebook.com" target="_blank"
@@ -246,7 +240,7 @@ Your Message
                 ></a>
               </li>
             </ul>
-          </nav>
+          </div>
         </div>
       </div>
 

@@ -15,6 +15,7 @@
       color: #fff;
       font-weight: 500;
     }
+
     blockquote {
       color: #ffffff;
       font-weight: 300;
@@ -47,24 +48,24 @@
       margin-right: 1rem;
     }
 
-    nav {
+    .links {
       margin-left: 4rem;
-      @media all and (max-width: 768px) {
-        margin-left: 1rem;
-      }
       ul {
         height: 250px;
       }
-
       li a {
         display: inline-block;
         font-size: 1rem;
         color: rgb(100, 100, 100);
       }
+
       li span {
         font-size: 1.2rem;
         font-weight: 500;
         padding-right: 0.8rem;
+      }
+      @media all and (max-width: 768px) {
+        display: inline-block;
       }
     }
   }
@@ -83,9 +84,6 @@
       border-radius: 0.5rem;
       width: 50%;
       margin: 1rem auto;
-      @media all and (max-width: 768px) {
-        width: 80%;
-      }
     }
 
     input,
@@ -106,7 +104,7 @@
     }
 
     textarea {
-      font-size: 0.7rem;
+      font-size: 0.8rem;
     }
 
     input::placeholder {
@@ -126,5 +124,17 @@
     right: 0;
     bottom: 0;
     z-index: -1;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .wrap {
+    flex-wrap: wrap;
+  }
+  .links {
+    margin-left: 1rem;
+  }
+  form {
+    width: 80%;
   }
 }
