@@ -393,6 +393,9 @@ h6 {
     -ms-flex-wrap: wrap-reverse;
         flex-wrap: wrap-reverse;
   }
+  .btn-secondary {
+    margin-left: 0;
+  }
 }
 
 header {
@@ -583,7 +586,7 @@ footer {
 
 .home-page .hero {
   background: rgba(0, 0, 0, 0.2);
-  height: 75vh;
+  height: 45rem;
 }
 
 .home-page .hero h1 {
@@ -605,11 +608,17 @@ footer {
 .home-page .todays .recp {
   background: white;
   position: relative;
-  top: -6rem;
+  top: -10rem;
   -webkit-box-shadow: 2px 2px 4px 4px rgba(128, 128, 128, 0.6);
           box-shadow: 2px 2px 4px 4px rgba(128, 128, 128, 0.6);
   border-radius: 0.7rem;
   overflow: hidden;
+}
+
+@media all and (max-width: 768px) {
+  .home-page .todays .recp {
+    top: -5rem;
+  }
 }
 
 .home-page .todays .flex-50 {
