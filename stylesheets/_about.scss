@@ -23,88 +23,87 @@
     }
   }
 
-
-.about{
-    background: linear-gradient(to right, rgba(0,0,0,1), rgba(255,255,255,0.8)) ;
-    h1{
-       text-align: center;
-       margin-bottom: 4rem;
-       font-weight: 300;
-       color:rgb(244, 140, 52);
+  .about {
+    background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 1),
+      rgba(255, 255, 255, 0.8)
+    );
+    h1 {
+      text-align: center;
+      margin-bottom: 4rem;
+      font-weight: 300;
+      color: rgb(244, 140, 52);
     }
-    .gallery{
-        height: 28rem;
-        overflow: auto;
-        &::-webkit-scrollbar {
-            display: none;
-          }
+    .gallery {
+      height: 28rem;
+      overflow: auto;
+      &::-webkit-scrollbar {
+        display: none;
+      }
     }
-    .img-content{
-        font-size: 0;
-        width: 25rem;
-        height: 16rem;
-        transform: rotate(-15deg);
-
+    .img-content {
+      font-size: 0;
+      width: 25rem;
+      height: 16rem;
+      transform: rotate(-15deg);
     }
-    .img-content img{
-        height: 100%;
-        transition: all 1s;
-        &:hover{
-            transform: scale(1.2);
-            border-radius: .5rem;
-            box-shadow: 2px 2px 4px 4px rgb(158, 158, 158);
-            overflow: hidden;
-        }
-    }
-}
-
-
-
-.philosophy{
- background-color:rgb(235, 210, 235);
- .card{
-     background-color:#ffffff ;
-     padding:2rem;
-     height:25rem;
-     text-align: center;
-     box-shadow: -2px 2px 4px 4px rgb(158, 158, 158);
- }
- i{
-     font-size: 2rem;
-     color:rgb(255, 217, 0);
- }
- h4{
-     margin:1rem auto;
-     color: rgb(244, 140, 52);
- }
- p{
-     color:rgb(100, 100, 100);
- }
-}
-
-.experience{
-    background-color:rgb(234, 244, 251);
-    .card{
-        background-color:#ffffff ;
-        padding:2rem;
-        height:25rem;
-        text-align: center;
+    .img-content img {
+      height: 100%;
+      transition: all 1s;
+      &:hover {
+        transform: scale(1.2);
+        border-radius: 0.5rem;
         box-shadow: 2px 2px 4px 4px rgb(158, 158, 158);
+        overflow: hidden;
+      }
     }
-    i{
-        font-size: 2rem;
-        color:rgb(255, 217, 0);
-    }
-    h4{
-        margin:1rem auto;
-        color: rgb(244, 140, 52);
-    }
-    p{
-        color:rgb(100, 100, 100);
-    }
-   }
+  }
 
+  .philosophy {
+    background-color: rgb(235, 210, 235);
 
+    .card {
+      background-color: #ffffff;
+      padding: 2rem;
+      height: 25rem;
+      text-align: center;
+      box-shadow: -2px 2px 4px 4px rgb(158, 158, 158);
+    }
+    i {
+      font-size: 2rem;
+      color: rgb(255, 217, 0);
+    }
+    h4 {
+      margin: 1rem auto;
+      color: rgb(244, 140, 52);
+    }
+    p {
+      color: rgb(100, 100, 100);
+    }
+  }
+
+  .experience {
+    background-color: rgb(234, 244, 251);
+    .card {
+      background-color: #ffffff;
+      padding: 2rem;
+      height: 25rem;
+      text-align: center;
+      box-shadow: 2px 2px 4px 4px rgb(158, 158, 158);
+    }
+    i {
+      font-size: 2rem;
+      color: rgb(255, 217, 0);
+    }
+    h4 {
+      margin: 1rem auto;
+      color: rgb(244, 140, 52);
+    }
+    p {
+      color: rgb(100, 100, 100);
+    }
+  }
 
   .our-chefs {
     text-align: center;
@@ -140,7 +139,7 @@
     }
     .cite p {
       font-size: 0.8rem;
-      margin-top: -.9rem;
+      margin-top: -0.9rem;
       font-weight: 400;
     }
   }
@@ -166,5 +165,17 @@
     right: 0;
     bottom: 0;
     z-index: -1;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .img-div {
+    flex: 0 1 80%;
+    margin-bottom: 0;
+  }
+
+  .chef {
+    flex: 0 1 80%;
+    margin: 1rem auto;
   }
 }

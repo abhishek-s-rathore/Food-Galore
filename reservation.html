@@ -29,10 +29,14 @@
     <!--Header-->
     <header>
       <div class="container-header flex justify-between align-center">
-        <a href="about.html" class="brand">
+        <a href="index.html" class="brand">
           Food
           <span>Galore</span></a
         >
+
+        <input type="checkbox" name="toggle" id="toggle" />
+        <label for="toggle" id="bars"><i class="fas fa-bars"></i></label>
+        <label for="toggle" id="cross"><i class="fas fa-times"></i></label>
         <nav>
           <ul class="flex justify-between align-center">
             <li>
@@ -45,12 +49,13 @@
               <a href="menu.html">MENU</a>
             </li>
             <li>
-              <a href="#" class="active">MAKE RESERVATION</a>
+              <a href="#" class="active">MAKE A RESERVATION</a>
             </li>
           </ul>
         </nav>
       </div>
     </header>
+    <div class="back-adjust"></div>
     <!--Main-->
     <main class="reservation-page">
       <section class="hero">
@@ -74,7 +79,7 @@
 
       <section class="get-in-touch padding">
         <h5>Get In Touch</h5>
-        <div class="container flex justify-between align-center">
+        <div class="container flex justify-between align-center wrap">
           <div class="column flex-50">
             <div class="content">
               <div class="map-box">
@@ -111,7 +116,9 @@
                   </li>
                   <li>
                     <span>Whatsapp:</span>
-                    <a href="https://wa.me/message/CFMFR4SDSF4XN1"
+                    <a
+                      href="https://wa.me/message/CFMFR4SDSF4XN1"
+                      target="_blank"
                       >+91-93897-32668</a
                     >
                   </li>
@@ -124,7 +131,7 @@
 
       <section class="form padding">
         <div class="container">
-          <h3>Make a reservation</h3>
+          <h3>Make A Reservation</h3>
 
           <form>
             <input
@@ -190,7 +197,7 @@ Your Message
     </main>
     <!--Footer-->
     <footer class="padding">
-      <div class="footer-main container flex justify-between align-center">
+      <div class="footer-main container flex justify-between align-center wrap">
         <div class="c-box flex-25">
           <i class="fas fa-map-marker-alt"></i>
           <h4>Reach Us:</h4>

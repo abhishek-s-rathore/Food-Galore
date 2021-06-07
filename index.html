@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--Title-->
-    <title>Home | FoodGalore</title>
+    <title>Home | Food Galore</title>
     <!--Stylesheet-->
     <link rel="stylesheet" href="./stylesheets/style.css" />
     <!--Google Fonts-->
@@ -27,12 +27,16 @@
 
   <body>
     <!--Header-->
-    <header>
+    <header class="header">
       <div class="container-header flex justify-between align-center">
-        <a href="about.html" class="brand">
+        <a href="#" class="brand">
           Food
           <span>Galore</span></a
         >
+
+        <input type="checkbox" name="toggle" id="toggle" />
+        <label for="toggle" id="bars"><i class="fas fa-bars"></i></label>
+        <label for="toggle" id="cross"><i class="fas fa-times"></i></label>
         <nav>
           <ul class="flex justify-between align-center">
             <li>
@@ -51,7 +55,9 @@
         </nav>
       </div>
     </header>
+    <div class="back-adjust"></div>
     <!--Main-->
+
     <main class="home-page">
       <div class="background"></div>
 
@@ -78,14 +84,14 @@
             class="recp flex justify-between align-center flex-wrap"
             style="font-size: 0"
           >
-            <div class="flex-50">
+            <div class="flex-50 order-1">
               <img
                 src="./assets/media/dal.webp"
                 alt="Image Here"
                 class="full-width"
               />
             </div>
-            <div class="flex-50" style="padding: 1rem 2rem">
+            <div class="flex-50 order-2" style="padding: 1rem 2rem">
               <h5>Today's Special</h5>
               <p>
                 " Vegan Madras Curry Vegetable Soup" Madras curry vegetable soup
@@ -96,7 +102,7 @@
               </p>
               <a href="#" class="btn btn-primary">View More</a>
             </div>
-            <div class="flex-50" style="padding: 1rem 2rem">
+            <div class="flex-50 order-3" style="padding: 1rem 2rem">
               <h5>Most Demanded</h5>
               <p>
                 "Baked Vegetarian Samosas With Phyllo Pastry" Traditionally,
@@ -108,7 +114,7 @@
               </p>
               <a href="#" class="btn btn-primary">View More</a>
             </div>
-            <div class="flex-50">
+            <div class="flex-50 order-4">
               <img
                 src="./assets/media/indian.jpg"
                 alt="Image Here"
@@ -123,8 +129,8 @@
         <h3>Our Specialtities</h3>
         <p>Check out our specialities menu here.</p>
 
-        <div class="container flex justify-between align-start">
-          <div class="special-dish">
+        <div class="container flex justify-between align-start wrap">
+          <div class="special-dish flex-20">
             <img
               src="./assets/media/breakfast.jpg"
               alt="Image here"
@@ -134,7 +140,7 @@
             <p>Ut enim ad minim veniam, quis nostrud exercitation.</p>
             <a href="#">View More >></a>
           </div>
-          <div class="special-dish">
+          <div class="special-dish flex-20">
             <img
               src="./assets/media/mains.jpg"
               alt="Image here"
@@ -144,7 +150,7 @@
             <p>Ut enim ad minim veniam, quis nostrud exercitation.</p>
             <a href="#">View More >></a>
           </div>
-          <div class="special-dish">
+          <div class="special-dish flex-20">
             <img
               src="./assets/media/gall3.jpg"
               alt="Image here"
@@ -154,7 +160,7 @@
             <p>Ut enim ad minim veniam, quis nostrud exercitation.</p>
             <a href="#">View More >></a>
           </div>
-          <div class="special-dish">
+          <div class="special-dish flex-20">
             <img
               src="./assets/media/drinks.jpg"
               alt="Image here"
@@ -168,16 +174,17 @@
       </section>
 
       <section class="reserve padding">
-        <h3>Make a reservation</h3>
+        <h3>Make A Reservation</h3>
         <a href="reservation.html" class="btn btn-primary"> Reservation</a>
       </section>
     </main>
+
     <!--Footer-->
     <footer class="padding">
-      <div class="footer-main container flex justify-between align-center">
+      <div class="footer-main container flex justify-between align-center wrap">
         <div class="c-box flex-25">
           <i class="fas fa-map-marker-alt"></i>
-          <h4>Reach Us:</h4>
+          <h4>ReachUs:</h4>
           <a href="https://g.page/AltCampus?share" target="_blank"
             >#123, Dharamshala, HP, INDIA</a
           >

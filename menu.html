@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--Title-->
-    <title>Menu | FoodGalore</title>
+    <title>Menu | Food Galore</title>
     <!--Stylesheet-->
     <link rel="stylesheet" href="./stylesheets/style.css" />
     <!--Google Fonts-->
@@ -29,10 +29,14 @@
     <!--Header-->
     <header>
       <div class="container-header flex justify-between align-center">
-        <a href="about.html" class="brand">
+        <a href="index.html" class="brand">
           Food
           <span>Galore</span></a
         >
+
+        <input type="checkbox" name="toggle" id="toggle" />
+        <label for="toggle" id="bars"><i class="fas fa-bars"></i></label>
+        <label for="toggle" id="cross"><i class="fas fa-times"></i></label>
         <nav>
           <ul class="flex justify-between align-center">
             <li>
@@ -45,12 +49,13 @@
               <a href="#" class="active">MENU</a>
             </li>
             <li>
-              <a href="reservation.html">MAKE RESERVATION</a>
+              <a href="reservation.html">MAKE A RESERVATION</a>
             </li>
           </ul>
         </nav>
       </div>
     </header>
+    <div class="back-adjust"></div>
     <!--Main-->
     <main class="menu-page">
 
@@ -73,7 +78,7 @@
 
       <section class="appetizers-type appetizers padding">
         <h5>Appetizers</h5>
-        <div class="container flex justify-between align-center">
+        <div class="container flex justify-between align-center wrap">
           <div class="column image flex-50">
             <div class="content">
               <div class="image-box">
@@ -98,7 +103,7 @@
 
       <section class="mains-type mains padding">
         <h5>Mains</h5>
-        <div class="container flex justify-between align-center">
+        <div class="container flex justify-between align-center wrap-rev">
           <div class="column list flex-50">
             <div class="content">
               <ul>
@@ -123,7 +128,7 @@
 
       <section class="appetizers-type desserts padding">
         <h5>Desserts</h5>
-        <div class="container flex justify-between align-center">
+        <div class="container flex justify-between align-center wrap">
           <div class="column image flex-50">
             <div class="content">
               <div class="image-box">
@@ -148,7 +153,7 @@
 
       <section class="mains-type drinks padding">
         <h5>Drinks</h5>
-        <div class="container flex justify-between align-center">
+        <div class="container flex justify-between align-center wrap-rev">
           <div class="column list flex-50">
             <div class="content">
               <ul>
@@ -173,7 +178,7 @@
 
       <section class="appetizers-type indian padding">
         <h5>Indian</h5>
-        <div class="container flex justify-between align-center">
+        <div class="container flex justify-between align-center wrap">
           <div class="column image flex-50">
             <div class="content">
               <div class="image-box">
@@ -197,7 +202,7 @@
       </section>
 
       <section class="reserve padding">
-        <h3>Make a reservation</h3>
+        <h3>Make A Reservation</h3>
         <a href="reservation.html" class="btn btn-primary"> Reservation</a>
       </section>
 
@@ -208,7 +213,7 @@
 
     <!--Footer-->
     <footer class="padding">
-      <div class="footer-main container flex justify-between align-center">
+      <div class="footer-main container flex justify-between align-center wrap">
         <div class="c-box flex-25">
           <i class="fas fa-map-marker-alt"></i>
           <h4>Reach Us:</h4>

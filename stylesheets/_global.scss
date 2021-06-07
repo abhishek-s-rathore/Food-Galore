@@ -96,3 +96,23 @@ h6 {
   border: 2px solid #fff;
   margin-left: 1rem;
 }
+
+
+@media all and (max-width:768px){
+  html{
+    font-size: 14px;
+  }
+     
+ .flex-20,  .flex-25,  .flex-30,  .flex-32,  .flex-40, .flex-48, .flex-50, .flex-60, .flex-100{
+   flex: 0 1 100%;
+   margin-bottom: 1rem;
+ }
+.wrap{
+  flex-wrap: wrap;
+}
+
+.wrap-rev{
+  flex-wrap: wrap-reverse;
+}
+
+}
