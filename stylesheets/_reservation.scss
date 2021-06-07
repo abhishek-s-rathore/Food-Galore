@@ -64,9 +64,6 @@
         font-weight: 500;
         padding-right: 0.8rem;
       }
-      @media all and (max-width: 768px) {
-        display: inline-block;
-      }
     }
   }
 
@@ -128,6 +125,9 @@
 }
 
 @media all and (max-width: 768px) {
+  .links ul .li {
+    display: inline-block;
+  }
   .wrap {
     flex-wrap: wrap;
   }

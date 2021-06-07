@@ -1,7 +1,7 @@
 footer {
   color: #ffffff;
   background-color: rgba(0, 0, 0, 1);
-}
+  }
 
 .footer-main {
   .c-box {
@@ -12,13 +12,16 @@ footer {
     &:hover {
       background-color: rgb(244,140,52);
     }
+
    i{
        font-size: 1.3rem;
    }
+
    h4{
        margin: 1rem auto;
    }
   }
+
   .follow {
     border-right: none;
     div i{
@@ -40,7 +43,7 @@ footer {
   }
 }
 
-
+/*Media Query*/
 @media all and (max-width:768px){
  html{
    font-size: 14px;
@@ -57,5 +60,4 @@ footer {
  .follow div i {
    margin:1.5rem,;
  }
-
 }

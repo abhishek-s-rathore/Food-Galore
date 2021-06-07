@@ -30,13 +30,14 @@
       border-bottom: 4px solid rgb(244, 140, 52);
     }
   }
-
-  .back-adjust {
-    height: 2.8rem;
-    display: none;
-  }
 }
 
+.back-adjust {
+  height: 2.8rem;
+  display: none;
+}
+
+/* MediaQuery*/
 @media all and (max-width: 768px) {
   .header {
     position: fixed;

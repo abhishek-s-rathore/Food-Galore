@@ -4,10 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <!--Title-->
     <title>Home | Food Galore</title>
+
     <!--Stylesheet-->
     <link rel="stylesheet" href="./stylesheets/style.css" />
+
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -18,6 +21,7 @@
       href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
       rel="stylesheet"
     />
+
     <!--Font Awesome-->
     <script
       src="https://kit.fontawesome.com/5cc6fb9f6b.js"
@@ -37,6 +41,7 @@
         <input type="checkbox" name="toggle" id="toggle" />
         <label for="toggle" id="bars"><i class="fas fa-bars"></i></label>
         <label for="toggle" id="cross"><i class="fas fa-times"></i></label>
+
         <nav class="header-nav">
           <ul class="flex justify-between align-center">
             <li>
@@ -55,17 +60,16 @@
         </nav>
       </div>
     </header>
+
     <div class="back-adjust"></div>
+
     <!--Main-->
-
     <main class="home-page">
-      <div class="background"></div>
-
+      <!--Hero Section-->
       <section class="hero">
         <div class="container">
           <h1>
-            Skinny people are
-            easier to kidnap.<br> 
+            Skinny people are easier to kidnap.<br />
             Eat Healthy. <br />Stay safe.
           </h1>
           <p>
@@ -78,6 +82,7 @@
         </div>
       </section>
 
+      <!--Todays Menu Section-->
       <section class="todays">
         <div class="container">
           <div
@@ -91,7 +96,7 @@
                 class="full-width"
               />
             </div>
-            <div class="flex-50 order-2" style="padding: 1rem 2rem">
+            <article class="flex-50 order-2" style="padding: 1rem 2rem">
               <h5>Today's Special</h5>
               <p>
                 " Vegan Madras Curry Vegetable Soup" Madras curry vegetable soup
@@ -101,8 +106,9 @@
                 texture and lots of nutrition.
               </p>
               <a href="#" class="btn btn-primary">View More</a>
-            </div>
-            <div class="flex-50 order-3" style="padding: 1rem 2rem">
+            </article>
+
+            <article class="flex-50 order-3" style="padding: 1rem 2rem">
               <h5>Most Demanded</h5>
               <p>
                 "Baked Vegetarian Samosas With Phyllo Pastry" Traditionally,
@@ -113,7 +119,8 @@
                 samosas, but you may enjoy the this variation.
               </p>
               <a href="#" class="btn btn-primary">View More</a>
-            </div>
+            </article>
+
             <div class="flex-50 order-4">
               <img
                 src="./assets/media/indian.jpg"
@@ -125,12 +132,12 @@
         </div>
       </section>
 
+      <!--Speciality Section-->
       <section class="speciality padding">
         <h3>Our Specialtities</h3>
         <p>Check out our specialities menu here.</p>
-
         <div class="container flex justify-between align-start wrap">
-          <div class="special-dish flex-20">
+          <article class="special-dish flex-20">
             <img
               src="./assets/media/breakfast.jpg"
               alt="Image here"
@@ -139,8 +146,9 @@
             <h5>The Best Breakfast</h5>
             <p>Ut enim ad minim veniam, quis nostrud exercitation.</p>
             <a href="#">View More >></a>
-          </div>
-          <div class="special-dish flex-20">
+          </article>
+
+          <article class="special-dish flex-20">
             <img
               src="./assets/media/mains.jpg"
               alt="Image here"
@@ -149,8 +157,9 @@
             <h5>Tasty-Healthy Dinners</h5>
             <p>Ut enim ad minim veniam, quis nostrud exercitation.</p>
             <a href="#">View More >></a>
-          </div>
-          <div class="special-dish flex-20">
+          </article>
+
+          <article class="special-dish flex-20">
             <img
               src="./assets/media/gall3.jpg"
               alt="Image here"
@@ -159,8 +168,9 @@
             <h5>Delicious Desserts</h5>
             <p>Ut enim ad minim veniam, quis nostrud exercitation.</p>
             <a href="#">View More >></a>
-          </div>
-          <div class="special-dish flex-20">
+          </article>
+
+          <article class="special-dish flex-20">
             <img
               src="./assets/media/drinks.jpg"
               alt="Image here"
@@ -169,14 +179,18 @@
             <h5>Fruit Juices &Wine</h5>
             <p>Ut enim ad minim veniam, quis nostrud exercitation.</p>
             <a href="#">View More >></a>
-          </div>
+          </article>
         </div>
       </section>
 
+      <!--Reservation Section-->
       <section class="reserve padding">
         <h3>Make A Reservation</h3>
         <a href="reservation.html" class="btn btn-primary"> Reservation</a>
       </section>
+
+      <!--Backgroud-->
+      <div class="background"></div>
     </main>
 
     <!--Footer-->
@@ -207,7 +221,7 @@
         <div class="c-box flex-25 follow">
           <i class="fas fa-users"></i>
           <h4>Follow Us:</h4>
-          <div class="flex justify-around align-center">
+          <nav class="flex justify-around align-center">
             <a href="https://www.facebook.com" target="_blank"
               ><i class="fab fa-facebook-square"></i
             ></a>
@@ -220,7 +234,7 @@
             <a href="https://www.google.com" target="_blank"
               ><i class="fab fa-google-plus-square"></i
             ></a>
-          </div>
+          </nav>
         </div>
       </div>
 
