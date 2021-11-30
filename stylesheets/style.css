@@ -375,11 +375,20 @@ h6 {
   margin-left: 1rem;
 }
 
+/* MediaQuery*/
 @media all and (max-width: 768px) {
   html {
     font-size: 14px;
   }
-  .flex-20, .flex-25, .flex-30, .flex-32, .flex-40, .flex-48, .flex-50, .flex-60, .flex-100 {
+  .flex-20,
+  .flex-25,
+  .flex-30,
+  .flex-32,
+  .flex-40,
+  .flex-48,
+  .flex-50,
+  .flex-60,
+  .flex-100 {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 100%;
             flex: 0 1 100%;
@@ -398,37 +407,37 @@ h6 {
   }
 }
 
-header {
+.header {
   background-color: black;
   padding: 1rem 0;
 }
 
-header .brand {
+.header .brand {
   font-size: 2.5rem;
   font-weight: 400;
   color: white;
   font-family: "Satisfy", cursive;
 }
 
-header .brand span {
+.header .brand span {
   color: #f48c34;
 }
 
-header label,
-header input {
+.header label,
+.header input {
   display: none;
 }
 
-header nav a {
+.header .header-nav a {
   margin-left: 2rem;
   color: #ffffff;
 }
 
-header nav a:hover {
+.header .header-nav a:hover {
   color: #f48c34;
 }
 
-header .active {
+.header .header-nav .active {
   border-bottom: 4px solid #f48c34;
 }
 
@@ -437,10 +446,8 @@ header .active {
   display: none;
 }
 
+/* MediaQuery*/
 @media all and (max-width: 768px) {
-  nav {
-    display: none;
-  }
   .header {
     position: fixed;
     top: 0;
@@ -448,6 +455,9 @@ header .active {
     left: 0;
     padding: 2.8rem;
     z-index: 99;
+  }
+  .header-nav {
+    display: none;
   }
   .back-adjust {
     display: block;
@@ -480,7 +490,7 @@ header .active {
     top: 1rem;
     right: 2rem;
   }
-  input:checked ~ nav {
+  input:checked ~ .header-nav {
     display: inline-block;
     position: fixed;
     top: 0;
@@ -490,7 +500,7 @@ header .active {
     background: black;
     z-index: 97;
   }
-  input:checked ~ nav ul {
+  input:checked ~ .header-nav ul {
     height: 100vh;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -507,7 +517,7 @@ header .active {
             flex-direction: column;
     margin-left: -1rem;
   }
-  input:checked ~ nav ul li {
+  input:checked ~ .header-nav ul li {
     margin: 2rem auto;
   }
 }
@@ -558,6 +568,7 @@ footer {
   color: rgba(255, 255, 255, 0.7);
 }
 
+/*Media Query*/
 @media all and (max-width: 768px) {
   html {
     font-size: 14px;
@@ -1053,23 +1064,23 @@ footer {
 }
 
 .menu-page .appetizers .image-box {
-  background-image: url("../assets/media/appetizers.jpg");
+  background-image: url("../assets/media/appetizers-min.jpg");
 }
 
 .menu-page .mains .image-box {
-  background-image: url("../assets/media/mains.jpg");
+  background-image: url("../assets/media/mains-min.jpg");
 }
 
 .menu-page .desserts .image-box {
-  background-image: url("../assets/media/desserts.jpg");
+  background-image: url("../assets/media/desserts-min.jpg");
 }
 
 .menu-page .drinks .image-box {
-  background-image: url("../assets/media/drinks.jpg");
+  background-image: url("../assets/media/drinks-min.jpg");
 }
 
 .menu-page .indian .image-box {
-  background-image: url("../assets/media/indian.jpg");
+  background-image: url("../assets/media/indian-min.jpg");
 }
 
 .menu-page .reserve {
@@ -1145,27 +1156,21 @@ footer {
   margin-right: 1rem;
 }
 
-.reservation-page .get-in-touch nav {
+.reservation-page .get-in-touch .links {
   margin-left: 4rem;
 }
 
-@media all and (max-width: 768px) {
-  .reservation-page .get-in-touch nav {
-    margin-left: 1rem;
-  }
-}
-
-.reservation-page .get-in-touch nav ul {
+.reservation-page .get-in-touch .links ul {
   height: 250px;
 }
 
-.reservation-page .get-in-touch nav li a {
+.reservation-page .get-in-touch .links li a {
   display: inline-block;
   font-size: 1rem;
   color: #646464;
 }
 
-.reservation-page .get-in-touch nav li span {
+.reservation-page .get-in-touch .links li span {
   font-size: 1.2rem;
   font-weight: 500;
   padding-right: 0.8rem;
@@ -1190,12 +1195,6 @@ footer {
   margin: 1rem auto;
 }
 
-@media all and (max-width: 768px) {
-  .reservation-page .form form {
-    width: 80%;
-  }
-}
-
 .reservation-page .form input,
 .reservation-page .form textarea,
 .reservation-page .form select {
@@ -1214,7 +1213,7 @@ footer {
 }
 
 .reservation-page .form textarea {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
 }
 
 .reservation-page .form input::-webkit-input-placeholder {
@@ -1245,5 +1244,21 @@ footer {
   right: 0;
   bottom: 0;
   z-index: -1;
+}
+
+@media all and (max-width: 768px) {
+  .links ul .li {
+    display: inline-block;
+  }
+  .wrap {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .links {
+    margin-left: 1rem;
+  }
+  form {
+    width: 80%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
