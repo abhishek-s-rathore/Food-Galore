@@ -590,7 +590,7 @@ footer {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url("../assets/media/home1.jpg"), no-repeat;
+  background: url("../media/home1.jpg"), no-repeat;
   background-size: 100% 100%;
   z-index: -1;
 }
@@ -745,8 +745,8 @@ footer {
 
 .about-page .hero {
   height: 23rem;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.3))), url("../assets/media/hero.jpg"), no-repeat;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url("../assets/media/hero.jpg"), no-repeat;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.3))), url("../media/hero.jpg"), no-repeat;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url("../media/hero.jpg"), no-repeat;
   background-size: 100% auto;
 }
 
@@ -918,7 +918,7 @@ footer {
 .about-page .background {
   width: 100vw;
   height: 100vh;
-  background: url("../assets/media/spices-hero-home.jpg");
+  background: url("../media/spices-hero-home.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   position: fixed;
@@ -1064,23 +1064,23 @@ footer {
 }
 
 .menu-page .appetizers .image-box {
-  background-image: url("../assets/media/appetizers-min.jpg");
+  background-image: url("../media/appetizers-min.jpg");
 }
 
 .menu-page .mains .image-box {
-  background-image: url("../assets/media/mains-min.jpg");
+  background-image: url("../media/mains-min.jpg");
 }
 
 .menu-page .desserts .image-box {
-  background-image: url("../assets/media/desserts-min.jpg");
+  background-image: url("../media/desserts-min.jpg");
 }
 
 .menu-page .drinks .image-box {
-  background-image: url("../assets/media/drinks-min.jpg");
+  background-image: url("../media/drinks-min.jpg");
 }
 
 .menu-page .indian .image-box {
-  background-image: url("../assets/media/indian-min.jpg");
+  background-image: url("../media/indian-min.jpg");
 }
 
 .menu-page .reserve {
@@ -1097,7 +1097,7 @@ footer {
 .menu-page .background {
   width: 100vw;
   height: 100vh;
-  background: url("../assets/media/spices-hero-home.jpg");
+  background: url("../media/spices-hero-home.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   position: fixed;
@@ -1110,8 +1110,8 @@ footer {
 
 .reservation-page .hero {
   height: 23rem;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.3))), url("../assets/media/hero.jpg"), no-repeat;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url("../assets/media/hero.jpg"), no-repeat;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.3))), url("../media/hero.jpg"), no-repeat;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url("../media/hero.jpg"), no-repeat;
   background-size: 100% auto;
 }
 
@@ -1235,7 +1235,7 @@ footer {
 .reservation-page .background {
   width: 100vw;
   height: 100vh;
-  background: url("../assets/media/spices-hero-home.jpg");
+  background: url("../media/spices-hero-home.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   position: fixed;
